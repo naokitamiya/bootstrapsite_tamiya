@@ -1,0 +1,173 @@
+@charset "utf-8";
+
+/*======header======*/
+header{
+	left:0;
+	top:0;
+  position:fixed;
+  width:100%;
+  z-index:24;
+  opacity:0.7;
+}
+
+header a{
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header .name-item{
+	font-size: 2rem;
+}
+/*===========feature==========*/
+#feature{
+	padding-top: 74px;
+}
+
+.card img{
+	border: 1px solid #ccc;
+}
+/*===========ACCESS==========*/
+#access{
+	padding-top:74px;
+}
+.iframe-content {
+  position: relative;
+  width: 100%;
+  padding: 75% 0 0 0;
+}
+.iframe-content iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ text-align: center;
+}
+
+/*============NEWS============*/
+#news{
+	padding-top:74px;
+}
+.log dl{
+	width : 100%;
+	height : 200px;
+	border : solid 1px #ccc;
+	overflow : auto;
+}
+
+
+.log dt{
+	border-bottom : dotted 1px #ccc;
+	line-height : 1.0;
+	float : left;
+	clear : both;
+	padding : 5px;
+}
+
+
+.log dd{
+	border-bottom : dotted 1px #ccc;
+	line-height : 1.0;
+	float : left;
+	padding : 5px;
+}
+
+.log dd::before{
+	content : url(../img/ico06.gif);
+}
+
+.log button{
+	display :block;
+	margin-left:auto;
+	margin-right:auto;
+	width :200px;
+	height:50px;
+}
+
+.log button a{
+	color: #fff;
+	text-decoration:none;
+}
+
+.formbox{
+	width :1000px;
+}
+
+.formbox input{
+	width :３00px;
+}
+
+.formbox textarea{
+	width :600px;
+}
+
+
+/*=========contact============*/
+#contact{
+	padding-top: 74px;
+}
+
+.contact table{
+	margin-bottom: 16px;
+	width :100%;
+}
+
+.contact td{
+	padding :10px;
+}
+
+.contact td input{
+	width: 600px;
+	border-radius: 10px;
+}
+
+.contact textarea{
+	height: 300px;
+	border-radius: 10px;
+	color:#ccc;
+}
+
+.contact button{
+	display:block ;
+	margin-right: auto;
+	margin-left: auto;
+	width :200px;
+	height:50px;
+}
+.btn{
+	display: inline-block;
+  cursor: pointer;
+  box-shadow: 0px 5px #0000ff;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.btn:active{
+  position: relative;
+  top: 5px;
+  box-shadow: none;
+}
+
+.example::placeholder{
+	color:#cccccc;
+}
+
+span{
+	color: #ff0000;
+}
+
+/*==========footer============*/
+
+footer{
+	background-color: #000;
+}
+
+.copyright{
+	color: #fff;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+
+
