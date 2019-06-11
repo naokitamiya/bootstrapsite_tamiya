@@ -90,40 +90,35 @@ header .name-item{
 	text-decoration:none;
 }
 
-.formbox{
-	width :1000px;
-}
-
-.formbox input{
-	width :３00px;
-}
-
-.formbox textarea{
-	width :600px;
-}
-
 
 /*=========contact============*/
 #contact{
 	padding-top: 74px;
 }
 
-.contact table{
+.formbox{
 	margin-bottom: 16px;
 	width :100%;
 }
 
-.contact td{
+.formbox  td{
 	padding :10px;
 }
 
-.contact td input{
-	width: 600px;
-	border-radius: 10px;
+.name,.mail,.mess{
+	width :300px;
 }
 
-.contact textarea{
-	height: 300px;
+
+
+.example{
+	border-radius: 10px;
+	width:420px;
+}
+
+textarea{
+	height:200px;
+	width:420px;
 	border-radius: 10px;
 	color:#ccc;
 }
@@ -157,6 +152,14 @@ span{
 	color: #ff0000;
 }
 
+@media(max-width:576px){
+	table{
+		width:100%;
+	}
+	table td{
+		display:block;
+	}
+}
 /*==========footer============*/
 
 footer{
